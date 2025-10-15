@@ -2,7 +2,7 @@ import { Check, Palette, Smartphone, Zap } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import servicesBg from "@/assets/services-bg.jpg";
+import websiteBg from "@/assets/website-bg.jpg";
 
 const WebDesign = () => {
   const features = [
@@ -18,13 +18,13 @@ const WebDesign = () => {
     <div className="min-h-screen animate-fade-in">
       {/* Hero Section */}
       <section
-        className="relative h-[60vh] flex items-center justify-center text-center text-primary-foreground"
+        className="relative h-[60vh] flex items-center justify-center text-center text-primary-foreground bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(56, 73, 89, 0.85), rgba(56, 73, 89, 0.85)), url(${servicesBg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundImage: `url(${websiteBg})`,
         }}
       >
+        {/* Overlay to darken image for text readability */}
+        <div className="absolute inset-0 bg-[rgba(56,73,89,0.75)] z-0"></div>
         <div className="container mx-auto px-4 z-10 animate-fade-in-up">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Web Design</h1>
           <p className="text-xl md:text-2xl opacity-90">

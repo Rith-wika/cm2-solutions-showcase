@@ -80,13 +80,13 @@ const Home = () => {
       <section
         className="relative h-screen flex items-center justify-center text-center text-primary-foreground"
         style={{
-          backgroundImage: `linear-gradient(rgba(56, 73, 89, 0.85), rgba(56, 73, 89, 0.85)), url(${heroBg})`,
+          backgroundImage: `linear-gradient(rgba(56, 73, 80, 0.45), rgba(56, 73, 89, 0.45)), url(${heroBg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
         <div className="container mx-auto px-4 z-10 animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold mb-5">
             Innovative IT Solutions for Modern Business
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">

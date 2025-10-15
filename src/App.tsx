@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollTop";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import WebDesign from "./pages/services/WebDesign";
@@ -28,6 +29,8 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
+      
         <div className="flex flex-col min-h-screen">
           <Navbar />
           <main className="flex-1 pt-20">

@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import  logo  from "@/assets/logo.jpg";
+
+
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,6 +42,7 @@ const Navbar = () => {
     { name: "Case Studies", path: "/insights/case-studies" },
     { name: "Blog", path: "/insights/blog" },
     { name: "News & Updates", path: "/insights/news" },
+    
   ];
 
   const toggleDropdown = (dropdown: string) => {
@@ -48,15 +52,14 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-background/95 backdrop-blur-md border-b-2 border-primary shadow-md"
-          : "bg-transparent"
+        isScrolled ? "bg-white shadow-md border-b border-border" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-3">
+            <img src={logo} alt="CM2 IT Solutions Logo" className="h-10 w-10" />
             <div className="text-2xl font-bold text-primary">
               CM<sub className="text-lg">2</sub> IT Solutions
             </div>
