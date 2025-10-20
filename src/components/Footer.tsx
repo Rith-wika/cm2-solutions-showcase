@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold">
-              CM<sub>2</sub> IT Solutions
+              OnFocus Software Inc
             </h3>
             <p className="text-sm opacity-90">
               Delivering innovative technology solutions for modern businesses.
@@ -94,7 +94,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm opacity-90">
-          <p>&copy; {new Date().getFullYear()} CM₂ IT Solutions. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} onFocus Software Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>

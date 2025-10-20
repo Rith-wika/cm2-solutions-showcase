@@ -85,7 +85,7 @@ const Home = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="container mx-auto px-4 z-10 animate-fade-in-up">
+        <div className="mx-auto px-4 z-10 animate-fade-in-up">
           <h1 className="text-5xl md:text-6xl font-bold mb-5">
             Innovative IT Solutions for Modern Business
           </h1>
@@ -111,7 +111,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <h2 className="text-4xl font-bold mb-6 text-primary">
-              Welcome to CM<sub>2</sub> IT Solutions
+              Welcome to OnFocus Software Inc
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               We are a leading technology company specializing in cutting-edge software solutions,

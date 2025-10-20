@@ -33,7 +33,7 @@ const About = () => {
             <Card className="border-2 border-primary animate-scale-in">
               <CardContent className="p-8">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  At CM<sub>2</sub> IT Solutions, our mission is to deliver innovative, reliable, and
+                  At OnFocus Software Inc, our mission is to deliver innovative, reliable, and
                   scalable technology solutions that drive business growth and digital transformation.
                   We are committed to understanding our clients' unique challenges and providing
                   tailored solutions that exceed expectations. Through continuous innovation,
@@ -84,7 +84,7 @@ const About = () => {
             <Card className="border-2 border-primary animate-scale-in">
               <CardContent className="p-8 space-y-4">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  CM<sub>2</sub> IT Solutions was founded with a vision to bridge the gap between
+                  OnFocus Software Inc was founded with a vision to bridge the gap between
                   technology and business objectives. What started as a small team of passionate
                   developers has grown into a full-service technology company serving clients across
                   various industries.
@@ -120,7 +120,7 @@ const About = () => {
               <CardContent className="p-8">
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                   Behind every successful project is a team of talented, dedicated professionals.
-                  At CM<sub>2</sub> IT Solutions, we take pride in our diverse team of experts who
+                  At OnFocus Software Inc, we take pride in our diverse team of experts who
                   bring creativity, technical expertise, and passion to every challenge.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">

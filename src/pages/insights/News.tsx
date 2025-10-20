@@ -4,7 +4,7 @@ import { Calendar, Tag } from "lucide-react";
 const News = () => {
   const news = [
     {
-      title: "CM₂ IT Solutions Launches AI-Powered CRM",
+      title: "OnFocus Software Inc Launches AI-Powered CRM",
       excerpt: "We're excited to announce the launch of our next-generation CRM with integrated AI capabilities for intelligent customer insights.",
       date: "March 20, 2024",
       tag: "Product Launch",
